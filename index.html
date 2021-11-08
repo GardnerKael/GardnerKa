@@ -1,67 +1,130 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <title>Welcome to OVERPRICED STUFF!!!</title>
-    <meta charset="utf-8">
-    <link rel='stylesheet' href='styles.css'/>
-</head>
-
-<style>
-.backimage{
-  background-attachment: fixed;
-  background: url('money.jpg') no-repeat center center fixed;
+    <meta charset="utf-8" />
+    <title>Creative Project #1 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.bigtext{
-  font-size: 3em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(34, 102, 95);
+body {
+    background-color: #d8d7d7;
 }
 
-.mediumtext{
-  font-size: 1.3em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.footer {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
-.content{
-  text-align: center;
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+}
+    .home-header {
+        background-size: cover;
+        color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .home-header p {
+            text-align: center;
+            padding: 20px;
+        }
+    .spacer {
+        height: 200px;
+    }
+    .artist-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+text-align: center;
+            padding: 20px;
+    }
+       .vid-and-description {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        width: 100%;
+   }
+      .artist-links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+       .home-header {
+        background-image: url("piano.jpg");
+        background-size: cover;
+        color: #d8d7d7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .home-header p {
+            text-align: center;
+            padding: 20px;
+        }
+        .spacer {
+            height: 100px;
+        }
 }
 </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html">Music</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body class="backimage">
-  <div class="top">
-  <p class="top"><a href="index.html">OverpricedStuff</a></p>
-<ul class="ul">
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="overpricedTech.html">Overpriced Tech</a></li>
-  <li><a href="overpricedPlastic.html">Overpriced Plastic</a></li>
-  <li><a href="aboutUs.html">About Us</a></li>
-</ul>
-</div>
-<div class="centered">
-  <p class="bigtext content">Welcome to Overpriced Stuff!</p>
-    <p class="content mediumtext">Where we make fun of companies for charging way too much for their very average products!</p>
-  <br>
-  <p class="content">Click on any of the below products to go to the product page (and potentially make an awful financial decision by buying it)!</p>
-  <br>
-  <div class="content">
-  <a href="overpricedTech.html">
-    <img class="productImage" src="MacProStandCorner.jpg"></a>
-  </div>
-  <p class="content mediumtext">2019 Mac Pro Monitor Stand</p>
-  <br>
-    <div class="content">
-      <a href="overpricedPlastic.html">
-        <img class="productImage" src="dasani20OZBottle.jpg"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="mine.html">US TOP 10</a>
+                        <a class="dropdown-item" href="sample.html">UK TOP 10</a>
+                        <a class="dropdown-item" href="colors.html">GLOBAL TOP 10</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+       <div class="page-info">
+                    <h1>Most Popular Song</h1>
+        </div>
+        <div class="artist-content">
+                 <img class="Main-image" src="https://wallpapercave.com/wp/wp2123415.jpg" alt="Hamburger Catering">
+           
+             <br>  <p class="vid-description">
+                   Luis Fonsi – Despacito ft. Daddy Yankee is currently the World's most popular song.  
+                </p>
+            </div>
+    <hr />
+    <div class="footer">
+        <a href="https://github.com/kaelagardner">Repository</a>
     </div>
-    <p class="content mediumtext">Dasani 20 Fluid Ounce Water Bottle</p>
-</div>
-
-</body>
-
-<footer>
-  <p>GitHub:<a class="foot" href="https://github.com/CJohnL/CS-260-Creative-Project-1">
-  CS-260-Creative-Project-1</a></p>
-</footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/script.js"></script>
+	</body>
 </html>
