@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 75px;
+}
+
+.centered{
+  max-width: 50%;
+  margin-top: 6em;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: aliceblue;
+  border: solid 2px lightgrey;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.description{
+  max-width: 45em;
+  padding-top: 2.5em;
+  text-align: center;
+}
+
+.productImage{
+  border: solid 2px lightgrey;
+  max-width: 50%;
+}
+
+.product{
+  max-width: 100%;
+}
+
+.imgContainer{
+  text-align: center;
+}
+
+.title{
+  font-size: 6em;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pageBody{
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.paragraph{
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+em{
+  color: blue;
+}
+
+button{
+  padding: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+  background-color: rgb(0, 15, 29);
+  color: rgb(34, 102, 95);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+}
+
+.top{
+  display: flex;
+  background-color: rgb(0, 15, 29);
+  font-size: 1.3em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 8px;
+  padding-top: 5px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(34, 102, 95);
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 15, 29);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: greenyellow
+}
+
+.active {
+  color: rgb(52, 80, 1);
+}
+
+p{
+  text-align: left;
+}
+
+h1{
+  text-align: left;
+}
+
+footer {
+  padding: 2px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: auto;
+  margin-top: auto;
+  color: white;
+  background-color: rgb(0, 15, 29);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot {
+  color: rgb(34, 102, 95);
+  font-weight: bold;
+  text-decoration: none;
+}
