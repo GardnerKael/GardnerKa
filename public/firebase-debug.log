@@ -1,0 +1,108 @@
+[debug] [2019-06-06T18:51:26.733Z] ----------------------------------------------------------------------
+[debug] [2019-06-06T18:51:26.735Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-06T18:51:26.736Z] CLI Version:   6.11.0
+[debug] [2019-06-06T18:51:26.736Z] Platform:      darwin
+[debug] [2019-06-06T18:51:26.736Z] Node Version:  v10.15.3
+[debug] [2019-06-06T18:51:26.737Z] Time:          Thu Jun 06 2019 12:51:26 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-06-06T18:51:26.737Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-06T18:51:26.748Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-06T18:51:26.749Z] > authorizing via signed-in user
+[debug] [2019-06-06T18:51:26.749Z] [iam] checking project museum-of-ordinary-objects for permissions ["firebase.projects.get"]
+[debug] [2019-06-06T18:51:26.751Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/museum-of-ordinary-objects:testIamPermissions  
+
+[debug] [2019-06-06T18:51:27.131Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-06T18:51:27.133Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/museum-of-ordinary-objects  
+ 
+[debug] [2019-06-06T18:51:27.496Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/student/Public/CS260/Lab4/Lab-4'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-06-06T18:51:27.500Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/486057053996/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-06T18:51:27.501Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/486057053996:getServerAppConfig  
+ 
+[debug] [2019-06-06T18:51:27.706Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-06T18:51:28.008Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/student/Public/CS260/Lab4/Lab-4/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-06T18:51:28.580Z] Functions runtime initialized.
+[debug] [2019-06-06T18:51:28.581Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-functions-test" to be installed as a development dependency. To fix this, run "npm install --save-dev firebase-functions-test" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-06-06T18:52:11.180Z] ----------------------------------------------------------------------
+[debug] [2019-06-06T18:52:11.182Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-06T18:52:11.183Z] CLI Version:   6.11.0
+[debug] [2019-06-06T18:52:11.183Z] Platform:      darwin
+[debug] [2019-06-06T18:52:11.183Z] Node Version:  v10.15.3
+[debug] [2019-06-06T18:52:11.184Z] Time:          Thu Jun 06 2019 12:52:11 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-06-06T18:52:11.184Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-06T18:52:11.197Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-06T18:52:11.197Z] > authorizing via signed-in user
+[debug] [2019-06-06T18:52:11.197Z] [iam] checking project museum-of-ordinary-objects for permissions ["firebase.projects.get"]
+[debug] [2019-06-06T18:52:11.199Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/museum-of-ordinary-objects:testIamPermissions  
+
+[debug] [2019-06-06T18:52:12.591Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-06T18:52:12.593Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/museum-of-ordinary-objects  
+ 
+[debug] [2019-06-06T18:52:12.965Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/student/Public/CS260/Lab4/Lab-4'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-06-06T18:52:12.972Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/486057053996/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-06T18:52:12.973Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/486057053996:getServerAppConfig  
+ 
+[debug] [2019-06-06T18:52:13.168Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-06T18:52:13.210Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/student/Public/CS260/Lab4/Lab-4/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-06T18:52:13.616Z] Functions runtime initialized.
+[debug] [2019-06-06T18:52:13.617Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-functions-test" to be installed as a development dependency. To fix this, run "npm install --save-dev firebase-functions-test" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-06-06T18:55:08.751Z] ----------------------------------------------------------------------
+[debug] [2019-06-06T18:55:08.753Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-06T18:55:08.753Z] CLI Version:   6.11.0
+[debug] [2019-06-06T18:55:08.753Z] Platform:      darwin
+[debug] [2019-06-06T18:55:08.754Z] Node Version:  v10.15.3
+[debug] [2019-06-06T18:55:08.755Z] Time:          Thu Jun 06 2019 12:55:08 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-06-06T18:55:08.755Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-06T18:55:08.771Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-06T18:55:08.771Z] > authorizing via signed-in user
+[debug] [2019-06-06T18:55:08.771Z] [iam] checking project museum-of-ordinary-objects for permissions ["firebase.projects.get"]
+[debug] [2019-06-06T18:55:08.773Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/museum-of-ordinary-objects:testIamPermissions  
+
+[debug] [2019-06-06T18:55:09.155Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-06T18:55:09.156Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/museum-of-ordinary-objects  
+ 
+[debug] [2019-06-06T18:55:09.328Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/student/Public/CS260/Lab4/Lab-4'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-06-06T18:55:09.334Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/486057053996/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-06T18:55:09.335Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/486057053996:getServerAppConfig  
+ 
+[debug] [2019-06-06T18:55:09.548Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-06T18:55:09.820Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/student/Public/CS260/Lab4/Lab-4/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-06T18:55:10.244Z] Functions runtime initialized.
+[debug] [2019-06-06T18:55:10.244Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-functions-test" to be installed as a development dependency. To fix this, run "npm install --save-dev firebase-functions-test" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
